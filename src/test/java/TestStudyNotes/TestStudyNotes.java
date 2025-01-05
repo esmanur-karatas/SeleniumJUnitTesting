@@ -9,7 +9,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
+//@Ignore: Şimdilik o testi görmezden gel demek için kullanılır
+//@Before: her testten önce içindeki ayarları çalıştırır bir kere ve sonra teste geçer
+//@After: her testten sonra içindeki ayarları çalıştırır mesela tarayıcı her testten sonra kapatmak gibi
+//@BeforeClass: statictir test ilk açıldığında bir kere olmak üzere ilk ayarları çalıştırır tüm testleri bir daha çalıştırmaya gerek olmadan testler çalışır
+//@AfterClass: bu da sonda bir kere çalışır
 public class TestStudyNotes {
+    //web sriverı setup içinde yaparsak diğer metotlarda çalışmayacaktır.
     static WebDriver driver;
     @BeforeClass
     public static void setupABefore(){
