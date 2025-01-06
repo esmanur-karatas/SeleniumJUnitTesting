@@ -1,4 +1,4 @@
-# Selenium JUnit Tesr
+# Selenium JUnit Test
 
 Bu depo, **Selenium WebDriver** ve **JUnit** kullanarak yazılmış iki ayrı projeyi içermektedir: **AssertionClass** ve **TestStudyNotes**. Her iki proje, web otomasyon testlerini içermektedir ve temel olarak testlerin nasıl yapılandırılacağı, nasıl doğrulama yapılacağı ve test metodlarının nasıl çalıştırılacağı hakkında örnekler sunmaktadır.
 
